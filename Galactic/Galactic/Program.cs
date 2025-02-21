@@ -35,7 +35,7 @@ namespace ConsoleApp_FirstApp
     {
         public string Name { get; set; }
         public double MegaLightYears { get; set; }
-        public GType GalaxyType { get; set; } // Изменено с object на GType
+        public GType GalaxyType { get; set; }
     }
 
     public class GType
@@ -50,7 +50,7 @@ namespace ConsoleApp_FirstApp
                 case 'E':
                     MyGType = Type.Elliptical;
                     break;
-                case 'I': // Исправлена опечатка
+                case 'I':
                     MyGType = Type.Irregular;
                     break;
                 case 'L':
